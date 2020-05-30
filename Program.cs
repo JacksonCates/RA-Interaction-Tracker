@@ -37,10 +37,10 @@ namespace RAInteractionTracker
             {
                 // SMTP server address
                 MailMessage mail = new MailMessage();
-                SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+                SmtpClient SmtpServer = new SmtpClient("EMAIL-SERVER");
 
                 // User and password
-                mail.From = new MailAddress("jacksons.cates@gmail.com");
+                mail.From = new MailAddress("BOT-EMAIL");
                 mail.To.Add(args[1]);
                 mail.Subject = "Jackson's Interaction Report";
                 mail.Body = "Katie,"
@@ -59,7 +59,7 @@ namespace RAInteractionTracker
 
                 // Sends the email
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("jacksons.cates@gmail.com", "576553Jc");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("BOT-MAIL", "NOT-MY-PASSWORD");
                 SmtpServer.EnableSsl = true;
                 Console.WriteLine("Logged in");
                 SmtpServer.Send(mail);
