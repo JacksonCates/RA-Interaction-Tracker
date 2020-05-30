@@ -1,0 +1,10 @@
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\bin\Debug\RAInteractionTracker.exe.config
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\bin\Debug\RAInteractionTracker.exe
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\bin\Debug\RAInteractionTracker.pdb
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.csprojAssemblyReference.cache
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.csproj.ResolveComReference.cache
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.csproj.CoreCompileInputs.cache
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.exe
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.pdb
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\bin\Debug\EASendMail.dll
+C:\Users\7485869\source\repos\PrivatePersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.csproj.CopyComplete
