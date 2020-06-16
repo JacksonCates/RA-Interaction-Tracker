@@ -35,35 +35,20 @@ namespace RAInteractionTracker
             // Usage needs to be RAInteractionTracter m <recipent email>
             if ( args.Length == 2 && args[0].ToLower().Equals("m"))
             {
-                // SMTP server address
-                MailMessage mail = new MailMessage();
-                SmtpClient SmtpServer = new SmtpClient("EMAIL-SERVER");
+                // Make a new mailer
+                Mailer mailer = new Mailer("STMP-SERVER", "BOT-EMAIL", "PASSWORD");
 
-                // User and password
-                mail.From = new MailAddress("BOT-EMAIL");
-                mail.To.Add(args[1]);
-                mail.Subject = "Jackson's Interaction Report";
-                mail.Body = "Katie,"
-                    + "\nPlease see Jackson's interaction report attached."
-                    + "\nThis is a bot email address thus do not reply, send me an email on my school account."
-                    + "\n\nThanks,\nJackson's Helper Bot";
+                // Makes a new mail
+                mailer.NewMail("RECIPENT-MAIL", "SUBJECT", "BODY");
 
-
-                // runs the report
+                // runs the report, returns the path
                 string reportPath = FileSystem.PrintReport(residents, false);
 
                 // Adds the file
-                System.Net.Mail.Attachment attachment;
-                attachment = new System.Net.Mail.Attachment(reportPath);
-                mail.Attachments.Add(attachment);
+                mailer.AddAttachement(reportPath);
 
                 // Sends the email
-                SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("BOT-MAIL", "NOT-MY-PASSWORD");
-                SmtpServer.EnableSsl = true;
-                Console.WriteLine("Logged in");
-                SmtpServer.Send(mail);
-                Console.WriteLine("Sent!");
+                mailer.Send();
 
                 return;
             }

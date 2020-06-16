@@ -18,3 +18,13 @@ C:\Users\7485869\source\repos\PersonalProjects\RAInteractionTracker\obj\Debug\RA
 C:\Users\7485869\source\repos\PersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.csproj.CopyComplete
 C:\Users\7485869\source\repos\PersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.exe
 C:\Users\7485869\source\repos\PersonalProjects\RAInteractionTracker\obj\Debug\RAInteractionTracker.pdb
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\bin\Debug\RAInteractionTracker.exe.config
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\bin\Debug\RAInteractionTracker.exe
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\bin\Debug\RAInteractionTracker.pdb
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\bin\Debug\EASendMail.dll
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\obj\Debug\RAInteractionTracker.csprojAssemblyReference.cache
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\obj\Debug\RAInteractionTracker.csproj.ResolveComReference.cache
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\obj\Debug\RAInteractionTracker.csproj.CoreCompileInputs.cache
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\obj\Debug\RAInteractionTracker.csproj.CopyComplete
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\obj\Debug\RAInteractionTracker.exe
+C:\Users\jackson.cates\source\repos\RA-Interaction-Tracker\obj\Debug\RAInteractionTracker.pdb
